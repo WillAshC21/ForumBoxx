@@ -1,0 +1,52 @@
+body {
+  background: lightblue;
+  font-family: Arial, sans-serif;
+}
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+    box-shadow: 3px 1px 5px 2px;
+}
+.login-table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#login-title {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 6px lightgrey;
+}
+.login-text, #login-submit {
+  padding: 10px 110px;
+  font-size: 14px;
+
+}
+#login-submit {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #80bfff;
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 5px 10px lightblue;
+}
+#login-submit:hover {
+  transition: 2s;
+  padding: 20px 150px;
+    font-size: 18px;
+}
+#username:hover, #password:hover {
+  transition: 0.3s;
+  border-color: blue;
+}
